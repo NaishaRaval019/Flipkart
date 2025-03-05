@@ -1,0 +1,100 @@
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f3f6;
+        }
+        .navbar 
+		{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #2874f0;
+            padding: 10px 20px;
+            color: white;
+        }
+        .navbar .logo 
+		{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .navbar input 
+		{
+            width: 40%;
+            padding: 10px;
+            border-radius: 6px;
+            border: none;
+        }
+		.logo 
+		{
+           display: flex;
+           align-items: center;
+           font-size: 50px;
+           font-weight: bold;
+}
+
+        .logo-img 
+		{
+           width: 40px; /* Adjust size as needed */
+           height: auto;
+           margin-right: 10px;
+        }
+        .user-options 
+		span 
+		{
+            margin-left: 15px;
+            cursor: pointer;
+        }
+        .categories 
+		{
+            display: flex;
+            justify-content: space-around;
+            background-color: white;
+            padding: 10px;
+        }
+        .categories span 
+		{
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .banner 
+		{
+            background: url('banner.jpg') no-repeat center center/cover;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            font-size: 24px;
+            text-align: center;
+        }
+        .products 
+		{
+            padding: 20px;
+        }
+        .product-grid 
+		{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .product 
+		{
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            width: 150px;
+            text-align: center;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+        .product img  
+		{
+            width: 100%;
+            height: auto;
+        }
+        .product-name 
+		{
+            margin-top: 10px;
+            font-weight: bold;
+        }
